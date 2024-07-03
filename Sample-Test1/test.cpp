@@ -35,3 +35,8 @@ TEST_F(PrimeFactorTest, Of6) {
     expected = { 2, 3 };
     EXPECT_EQ(expected, primeFactor.of(6));
 }
+
+TEST_F(PrimeFactorTest, Of9) {
+    expected = { 3, 3 };
+    EXPECT_EQ(expected, primeFactor.of(9));
+}

@@ -20,7 +20,7 @@ public:
                     num /= divisor;
                 }
             }
-            else if (6 == num)
+            else if (6 <= num)
             {
                 for (divisor = 2; 1 < num; divisor++)
                 {
