@@ -14,6 +14,11 @@ public:
             result.push_back(2);
         }
 
+        if (3 == num)
+        {
+            result.push_back(3);
+        }
+
         return result;
     }
 };
