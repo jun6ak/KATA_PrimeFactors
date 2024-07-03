@@ -12,15 +12,8 @@ public:
         if (num > 1)
         {
             int divisor = 2;
-            if (4 == num)
-            {
-                while (num % divisor == 0)
-                {
-                    result.push_back(divisor);
-                    num /= divisor;
-                }
-            }
-            else if (6 <= num)
+            
+            if (4 <= num)
             {
                 for (divisor = 2; 1 < num; divisor++)
                 {
