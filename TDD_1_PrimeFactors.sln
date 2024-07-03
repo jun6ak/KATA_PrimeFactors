@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDD_1_PrimeFactors", "TDD_1_PrimeFactors\TDD_1_PrimeFactors.vcxproj", "{EADDE512-CC3D-48CB-9D97-3674634F9B34}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Test1", "Sample-Test1\Sample-Test1.vcxproj", "{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{79FB633D-2CAE-4419-98F4-C260C3A16B63}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0123E16A-0B27-4755-9468-7231970CE1E6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\pull_request_template.md = .github\pull_request_template.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Debug|x64.ActiveCfg = Debug|x64
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Debug|x64.Build.0 = Debug|x64
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Debug|x86.ActiveCfg = Debug|Win32
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Debug|x86.Build.0 = Debug|Win32
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Release|x64.ActiveCfg = Release|x64
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Release|x64.Build.0 = Release|x64
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Release|x86.ActiveCfg = Release|Win32
+		{EADDE512-CC3D-48CB-9D97-3674634F9B34}.Release|x86.Build.0 = Release|Win32
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Debug|x64.ActiveCfg = Debug|x64
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Debug|x64.Build.0 = Debug|x64
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Debug|x86.Build.0 = Debug|Win32
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Release|x64.ActiveCfg = Release|x64
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Release|x64.Build.0 = Release|x64
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Release|x86.ActiveCfg = Release|Win32
+		{55D1393E-E9B3-4B6F-A11F-7C08BB562FEF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0123E16A-0B27-4755-9468-7231970CE1E6} = {79FB633D-2CAE-4419-98F4-C260C3A16B63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B44BF127-C1B4-426D-896C-BD73E1651D9F}
+	EndGlobalSection
+EndGlobal
