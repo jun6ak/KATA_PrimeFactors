@@ -4,16 +4,19 @@
 
 using namespace std;
 
-TEST(PrimeFactorTest, Of1) {
+class PrimeFactorTest : public testing::Test
+{
+protected:
     PrimeFactor primeFactor;
-    vector<int> expected = { };
+    vector<int> expected;
+};
 
+TEST_F(PrimeFactorTest, Of1) {
+    expected = { };
     EXPECT_EQ(expected, primeFactor.of(1));
 }
 
-TEST(PrimeFactorTest, Of2) {
-    PrimeFactor primeFactor;
-    vector<int> expected = { 2 };
-
+TEST_F(PrimeFactorTest, Of2) {
+    expected = { 2 };
     EXPECT_EQ(expected, primeFactor.of(2));
 }
