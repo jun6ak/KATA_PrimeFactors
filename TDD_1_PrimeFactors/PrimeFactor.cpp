@@ -7,6 +7,7 @@ class PrimeFactor
 public:
     vector<int> of(int num)
     {
-        return  { };
+        vector<int> result = { };
+        return result;
     }
 };
