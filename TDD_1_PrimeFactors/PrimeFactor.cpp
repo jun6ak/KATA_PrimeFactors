@@ -9,14 +9,9 @@ public:
     {
         vector<int> result = { };
 
-        if (2 == num)
+        if (num > 1)
         {
-            result.push_back(2);
-        }
-
-        if (3 == num)
-        {
-            result.push_back(3);
+            result.push_back(num);
         }
 
         return result;
